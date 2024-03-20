@@ -1,2 +1,5 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
+
+113512  IF1/1 unstable at start
+113513  IF1 initially failed
