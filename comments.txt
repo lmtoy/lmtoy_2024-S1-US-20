@@ -2,4 +2,4 @@
 #123456    QAFAIL     # ...
 
 113512  IF1/1 unstable at start
-113513  IF1 initially failed
+113513  -
