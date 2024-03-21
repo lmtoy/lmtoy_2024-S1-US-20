@@ -15,7 +15,7 @@ on["G45.47_01_of_04"] =  [ 113512, 113513,]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1["G45.47_01_of_04"] = "extent=500 b_order=1 dv=30 dw=50 pix_list=-13,14,15"
+pars1["G45.47_01_of_04"] = "extent=500 b_order=1 dv=60 dw=60 pix_list=-13,14,15"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
