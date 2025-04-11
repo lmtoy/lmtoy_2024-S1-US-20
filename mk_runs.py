@@ -32,8 +32,8 @@ on["G45-mos"] = on["G45.47_01_of_04"]  + on["G45.47_02_of_04"]  + on["G45.47_03_
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
-pars1["G29.96_01_of_04"] = ""
-pars1["G29.96_01_of_04_SB0"] = ""
+pars1["G29.96_01_of_04"]     = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
+pars1["G29.96_01_of_04_SB0"] = "extent=500 b_order=1 dv=60 dw=60"
 
 pars1["G30.76_01_of_04"] = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
 pars1["G30.76_02_of_04"] = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
@@ -47,7 +47,7 @@ pars1["G45-mos"]         = "skip=1"
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 
-pars2["G29.96_01_of_04"] = ""
+pars2["G29.96_01_of_04"]     = "bank=0 pix_list=-13"
 pars2["G29.96_01_of_04_SB0"] = ""
 
 pars2["G30.76_01_of_04"] = "bank=0 pix_list=-13"
@@ -60,7 +60,7 @@ pars2["G45.47_04_of_04"] = "bank=0 pix_list=-13"
 
 pars3 = {}
 
-pars3["G29.96_01_of_04"] = ""
+pars3["G29.96_01_of_04"] = "bank=1 pix_list=-13,15"
 
 pars3["G30.76_01_of_04"] = "bank=0 pix_list=-13,15"
 pars3["G30.76_02_of_04"] = "bank=0 pix_list=-13,15"
