@@ -14,6 +14,7 @@ on = {}
 on["G29.96_01_of_04"] =     [ 132924, 135115,]
 on["G29.96_01_of_04_SB0"] = [ 132241, 132242,]
 on["G29.96_02_of_04"] =     [ 134452, 134454,]
+on["G29.96_03_of_04"] =     [ 135552, 136041, 136042,]
 
 
 on["G30.76_01_of_04"] =  [ 120665, 120666,]
@@ -37,6 +38,7 @@ pars1 = {}
 pars1["G29.96_01_of_04"]     = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
 pars1["G29.96_01_of_04_SB0"] = "extent=500 b_order=1 dv=60 dw=60"
 pars1["G29.96_02_of_04"]     = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
+pars1["G29.96_03_of_04"]     = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
 
 pars1["G30.76_01_of_04"] = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
 pars1["G30.76_02_of_04"] = "extent=500 b_order=1 dv=60 dw=60 pix_list=-15"
@@ -53,6 +55,7 @@ pars2 = {}
 pars2["G29.96_01_of_04"]     = "bank=0 pix_list=-13"
 pars2["G29.96_01_of_04_SB0"] = ""
 pars2["G29.96_02_of_04"]     = "bank=0 pix_list=-13"
+pars2["G29.96_03_of_04"]     = "bank=0 pix_list=-13"
 
 pars2["G30.76_01_of_04"] = "bank=0 pix_list=-13"
 pars2["G30.76_02_of_04"] = "bank=0 pix_list=-13"
@@ -66,6 +69,7 @@ pars3 = {}
 
 pars3["G29.96_01_of_04"] = "bank=1 pix_list=-13,15"
 pars3["G29.96_02_of_04"] = "bank=1 pix_list=-13,15"
+pars3["G29.96_03_of_04"] = "bank=1 pix_list=-13,15"
 
 pars3["G30.76_01_of_04"] = "bank=0 pix_list=-13,15"
 pars3["G30.76_02_of_04"] = "bank=0 pix_list=-13,15"
